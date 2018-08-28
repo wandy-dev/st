@@ -122,6 +122,7 @@ size_t utf8encode(Rune, char *);
 void *xmalloc(size_t);
 void *xrealloc(void *, size_t);
 char *xstrdup(char *);
+int trt_kbdselect(KeySym, char *, int);
 
 void kscrolldown(const Arg *);
 void kscrollup(const Arg *);
